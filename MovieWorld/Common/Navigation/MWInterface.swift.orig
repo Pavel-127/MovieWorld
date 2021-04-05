@@ -59,6 +59,8 @@ class MWInterface {
     func set(vc: UIViewController) {
         self.currentNavController.setViewControllers([vc], animated: true)
     }
+<<<<<<< HEAD
+=======
 
     func setTabBar() {
         guard let window = self.window else { return }
@@ -70,4 +72,5 @@ class MWInterface {
                           options: .transitionFlipFromLeft,
                           animations: nil)
     }
+>>>>>>> 987df8e6569d716edfd316e2f336ce3976932af2
 }

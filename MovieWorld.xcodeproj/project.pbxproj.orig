@@ -233,22 +233,6 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
-		FAE62610261B3F3900FB327D /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				FAE62611261B3F4200FB327D /* Cell */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		FAE62611261B3F4200FB327D /* Cell */ = {
-			isa = PBXGroup;
-			children = (
-				FAE62612261B3F8D00FB327D /* MWMovieCell.swift */,
-			);
-			path = Cell;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
