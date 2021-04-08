@@ -29,6 +29,8 @@
 		FA434DF7261B817300991E04 /* MWNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA434DF6261B817300991E04 /* MWNetwork.swift */; };
 		FA434DFA261B858C00991E04 /* Url+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA434DF9261B858C00991E04 /* Url+Ex.swift */; };
 		FA434DFD261B91F900991E04 /* MWUrlPaths.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA434DFC261B91F900991E04 /* MWUrlPaths.swift */; };
+		FABE6316261F1EED00119389 /* MWUpcomingMovies.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABE6315261F1EED00119389 /* MWUpcomingMovies.swift */; };
+		FABE6319261F255000119389 /* MWTopRatedMovies.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABE6318261F255000119389 /* MWTopRatedMovies.swift */; };
 		FAE62613261B3F8D00FB327D /* MWMovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE62612261B3F8D00FB327D /* MWMovieCell.swift */; };
 /* End PBXBuildFile section */
 
@@ -56,6 +58,8 @@
 		FA434DF6261B817300991E04 /* MWNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MWNetwork.swift; sourceTree = "<group>"; };
 		FA434DF9261B858C00991E04 /* Url+Ex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Url+Ex.swift"; sourceTree = "<group>"; };
 		FA434DFC261B91F900991E04 /* MWUrlPaths.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MWUrlPaths.swift; sourceTree = "<group>"; };
+		FABE6315261F1EED00119389 /* MWUpcomingMovies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MWUpcomingMovies.swift; sourceTree = "<group>"; };
+		FABE6318261F255000119389 /* MWTopRatedMovies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MWTopRatedMovies.swift; sourceTree = "<group>"; };
 		FAE62612261B3F8D00FB327D /* MWMovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MWMovieCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -231,6 +235,8 @@
 			children = (
 				03E0A849261B486000BD04B4 /* MWMovie.swift */,
 				FA434DF2261B80CD00991E04 /* MWPopularMoviesResponse.swift */,
+				FABE6315261F1EED00119389 /* MWUpcomingMovies.swift */,
+				FABE6318261F255000119389 /* MWTopRatedMovies.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -347,10 +353,12 @@
 			files = (
 				03C41DF82615FD6C0055D985 /* MWMoviesController.swift in Sources */,
 				FA434DF3261B80CD00991E04 /* MWPopularMoviesResponse.swift in Sources */,
+				FABE6316261F1EED00119389 /* MWUpcomingMovies.swift in Sources */,
 				FA434DF7261B817300991E04 /* MWNetwork.swift in Sources */,
 				FA434DFD261B91F900991E04 /* MWUrlPaths.swift in Sources */,
 				03C41DBD2615DBFC0055D985 /* MWViewController.swift in Sources */,
 				FAE62613261B3F8D00FB327D /* MWMovieCell.swift in Sources */,
+				FABE6319261F255000119389 /* MWTopRatedMovies.swift in Sources */,
 				03C41E1326163FCA0055D985 /* MWMovieModel.swift in Sources */,
 				03E0A83F261B47BE00BD04B4 /* MWMainViewController.swift in Sources */,
 				03E0A84A261B486000BD04B4 /* MWMovie.swift in Sources */,
